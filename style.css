@@ -34,6 +34,12 @@ body {
 .logo {
   width: 200px;
   height: auto;
+  transition: 1s;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+  transition: 1s;
 }
 
 .nav {
@@ -104,10 +110,9 @@ section {
   transition: all 0.25s;
 }
 .index a:active {
-  margin-top: 0.8em;
   background-color: black;
   color: white;
-  padding: 0.9em 1.8em;
+  padding: 0.7em 1.4em;
   border: solid 1px #c9ee02;
   transition: all 0.25s;
 }

@@ -21,6 +21,7 @@ body {
   letter-spacing: 2px;
   display: flex;
   flex-direction: column;
+  line-height: 1.6;
 }
 
 .rownav {
@@ -33,6 +34,12 @@ body {
 .logo {
   width: 200px;
   height: auto;
+  transition: 1s;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+  transition: 1s;
 }
 
 .nav {
@@ -47,6 +54,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border: 2px solid transparent;
+  color: white;
 }
 .nav li a:hover,
 .nav li a:active {
@@ -62,11 +70,17 @@ body {
 #selected {
   padding-bottom: 8px;
   border-bottom: 2px solid #c9ee02;
+  color: #c9ee02;
 }
 
 section {
   margin-top: auto;
   margin-bottom: auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 .index {
@@ -79,6 +93,15 @@ section {
   font-weight: bold;
   font-size: 3.4em;
   letter-spacing: 20px;
+}
+.index h2 {
+  font-weight: bold;
+  font-size: 2.8em;
+  letter-spacing: 20px;
+}
+
+.index p {
+  margin-top: 2em;
 }
 
 footer {
